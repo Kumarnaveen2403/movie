@@ -66,6 +66,7 @@ function Movies(props) {
     ></InputBox>
 
     <MoviesTable 
+      content={content}
       cGenre={props.cGenre} 
       searchText={searchText}
       moviesCount={moviesCount}
